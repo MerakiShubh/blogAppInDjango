@@ -1,0 +1,41 @@
+__pycache__/
+*.pyc
+env/
+*.env
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# Django migrations (optional — keep if you want history)
+*/migrations/__pycache__/
+*.sqlite3
+
+# Environment variables and secrets
+.env
+*.env
+
+# VS Code or IDE config
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Byte-compiled
+*.pyc
+
+# Database (only if you use SQLite)
+db.sqlite3
+
+# Media/Static (optional — depending on how you handle uploads/static)
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.tar
+*.bak
